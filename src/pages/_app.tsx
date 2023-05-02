@@ -1,9 +1,10 @@
 
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '@/styles/globals.css'
+import { NextPage } from 'next'
+
 import type { AppProps } from 'next/app'
 import Script from 'next/script'
-
 
 export default function App({ Component, pageProps }: AppProps) {
   return <>
