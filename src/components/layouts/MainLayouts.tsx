@@ -1,11 +1,13 @@
+import { FC } from "react";
 
 import Head from "next/head";
 
 import styles from './MainLayout.module.css'
-
 import Navbar from "../Navbar";
 
-export const MainLayout = ({ children }) => {
+
+
+export const MainLayout: FC<any> = ({ children }) => {
     return (
         <div className={styles.container}>
           <Head>
@@ -28,6 +30,7 @@ export const MainLayout = ({ children }) => {
             </div> */}
 
           </main>
+          
         </div>
       )
 }

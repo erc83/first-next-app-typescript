@@ -1,6 +1,7 @@
+import { FC } from "react"; 
 
 
-export const DarkLayout = ({ children }) => {
+export const DarkLayout: FC<any> = ( {children}) => {
   return (
     <div style={{
         backgroundColor: 'rgba(0,0,0,0.3)',
@@ -9,11 +10,11 @@ export const DarkLayout = ({ children }) => {
     }}>
         <h3>Dark-Layout</h3>
         <div>
-            { children }
+          {children}
         </div>
     </div>
-  )
-}
+  );
+};
 
 
 
