@@ -1,0 +1,8 @@
+Dockerfile
+.dockerignore
+node_modules
+npm-debug.log
+README.md
+.next
+typescript_despliegues_docker
+Dockerfile_19_GB

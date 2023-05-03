@@ -34,4 +34,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-/03_typescript_despliegues_docker
+typescript_despliegues_docker
+Dockerfile_19_GB
